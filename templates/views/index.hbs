@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{!-- adding bootstrap --}}
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   {{>navbar}}
+{{!-- images used --}}
+<img src="./images/logo2.jpeg" width="100%" alt="" >
+  <h1 class="manteam">Surya Public School</h1>
+<figure>
+  <img src='https://tse1.mm.bing.net/th?id=OIP.1JL8kU9HpV5tc-uQ-atgoQHaDY&pid=Api&P=0&h=180' style="width:300px; border-radius:20px; display:block; margin:auto; " alt="" >
+</figure>
+   {{!-- home sectiion --}}
+   <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto write ">
+        <div class="row">
+          {{!-- leftside --}}
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-center flex-column">
+<h1>Well Will Help You to</h1>
+<h1>Grow Your Children </h1>
+<p>WE are Team of <span class="bold-style">Qualified Teacher's</span></p>
+
+          </div>
+          {{!-- right side --}}
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+   </div>
+   <hr>
+   <hr>
+   
+   {{!-- about section --}}
+   {{>about}}
+   <hr>
+
+   {{!-- services --}}
+   
+{{!-- contact us --}}
+<hr>
+{{>forms}}
+{{>contact}}
+<hr>
+    {{>header}}
+    <hr>
+     {{>service}}
+    <hr>
+    <hr>
+    
+  {{>footer}}        
+
+
+{{!-- adding js and jquery --}}
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+     <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
